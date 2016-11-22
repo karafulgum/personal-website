@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25rem;
+  // background: $c-gray;
+  background: url('../images/skyline.jpeg') no-repeat center;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content-title {
+    color: $c-primary;
+    font-family: 'Ovo', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__content-subtitle {
+    width: 21rem;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    background: $c-accent;
+    color: $c-white;
+    letter-spacing: 0.4rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
