@@ -11,3 +11,24 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/nav';
 @import 'components/hero';
 @import 'components/about';
+@import 'components/resume';
+
+.header {
+  margin: 0;
+  padding: 1rem 2rem;
+  color: $c-primary;
+  font-family: 'Ovo', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+
+  &--light {
+    color: $c-white;
+  }
+
+  &__underline {
+    display: inline-block;
+    padding: 0.2rem;
+    border-bottom: 0.1rem solid $c-accent;
+  }
+}
