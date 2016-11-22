@@ -31,6 +31,16 @@
           </div>
         </div>
       </div>
+
+      <div class="about">
+        <p class="about__header"><span class="underline">About</span></p>
+        <div class="container">
+          <div class="about__content">
+              <p class="about__body">Hi, I'm Kara Fulgum. I'm a Nashville native (there's so few of us now!) and a web developer. Before switching into tech, I was in public relations and marketing for six years. Becuase of that I have a unique perspective when it comes to building websites. Outside of work I enjoy playing with my golden retriever mix, going to the ballet, attending as many concerts as I can and co-organizing the Nashville meetup chapter of Tech Ladies.</p>
+              <img src="../images/kara.jpg" class="about__img" alt="Kara Fulgum">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

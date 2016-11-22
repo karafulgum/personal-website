@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    margin: 0;
+    padding: 1rem 2rem;
+    color: $c-primary;
+    font-family: 'Ovo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 420px) {
+      flex-wrap: wrap-reverse;
+    }
+  }
+
+  &__body {
+    flex-grow: 1;
+  }
+
+  &__img {
+    height: 15rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    border: 0.2rem solid $c-accent;
+    border-radius: 50%;
+  }
+}
+
+.underline {
+  display: inline-block;
+  padding: 0.2rem;
+  border-bottom: 0.1rem solid $c-accent;
+}

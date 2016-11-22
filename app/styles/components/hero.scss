@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   height: 25rem;
-  // background: $c-gray;
   background: url('../images/skyline.jpeg') no-repeat center;
   background-size: cover;
 
@@ -21,7 +20,7 @@
   }
 
   &__content-subtitle {
-    width: 21rem;
+    width: 21.25rem;
     padding: 0.2rem;
     border-radius: 0.4rem;
     background: $c-accent;
