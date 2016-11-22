@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &__content {
+    flex-grow: 1;
+    overflow-y: scroll;
+  }
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  height: 2rem;
+  margin: auto 0;
+}
