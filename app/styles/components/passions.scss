@@ -18,6 +18,11 @@
     letter-spacing: 0.2rem;
     text-transform: uppercase;
 
+    @media (max-width: 750px) {
+      font-size: 1rem;
+      text-align: center;
+    }
+
     &:last-of-type {
       border-right: 0;
     }

@@ -63,10 +63,12 @@
       </div>
 
       <div class="passions">
-        <div class="passions__group">
-          <p class="passions__item">Dog Mom</p>
-          <p class="passions__item">Retired Ballerina</p>
-          <p class="passions__item">Pizza Lover</p>
+        <div class="container">
+          <div class="passions__group">
+            <p class="passions__item">Dog Mom</p>
+            <p class="passions__item">Retired Ballerina</p>
+            <p class="passions__item">Pizza Lover</p>
+          </div>
         </div>
       </div>
 
