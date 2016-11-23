@@ -15,7 +15,18 @@
   padding: 0 1rem;
 }
 
-.logo {
-  height: 2rem;
-  margin: auto 0;
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+  padding: 1rem 0;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 1rem);
+    flex-grow: 1;
+
+    @media (max-width: 720px) {
+      flex-basis: calc(100% - 1rem);
+    }
+  }
 }

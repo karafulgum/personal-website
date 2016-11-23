@@ -5,6 +5,7 @@
   background: $c-primary;
   font-size: 14px;
   opacity: 0.9;
+  z-index: 2;
 
   &__content {
     display: flex;

@@ -12,10 +12,18 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/hero';
 @import 'components/about';
 @import 'components/resume';
+@import 'components/passions';
+@import 'components/portfolio';
+
+.logo {
+  height: 2rem;
+  margin: auto 0;
+}
 
 .header {
   margin: 0;
   padding: 1rem;
+  padding-top: 3.5rem;
   color: $c-primary;
   font-family: 'Ovo', sans-serif;
   font-weight: bold;

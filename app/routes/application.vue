@@ -9,10 +9,10 @@
               <a href='#about' class="nav__right-item">About</a>
             </li>
             <li>
-              <a href="#resume" class="nav__right-item">Resume</a>
+              <a href="#portfolio" class="nav__right-item">Portfolio</a>
             </li>
             <li>
-              <a href="#portfolio" class="nav__right-item">Portfolio</a>
+              <a href="#resume" class="nav__right-item">Resume</a>
             </li>
             <li>
               <a href="#contact" class="nav__right-item">Contact</a>
@@ -39,6 +39,34 @@
               <p class="about__body">Hi, I'm Kara Fulgum. I'm a Nashville native (there's so few of us now!) and a web developer. Before switching into tech, I was in public relations and marketing for six years. Becuase of that I have a unique perspective when it comes to building websites. Outside of work I enjoy playing with my golden retriever mix, going to the ballet, attending as many concerts as I can and co-organizing the Nashville meetup chapter of Tech Ladies.</p>
               <img src="../images/kara.jpg" class="about__img" alt="Kara Fulgum">
           </div>
+        </div>
+      </div>
+
+      <div class="portfolio" id="portfolio">
+        <p class="header header--light"><span class="header__underline">Portfolio</span></p>
+        <div class="container">
+          <div class="grid">
+            <div class="grid__item">
+              <a target="_blank" href="http://kf-puppies.surge.sh" class="portfolio__frame">
+                <img src="../images/puppies.png" class="portfolio__img" alt="Puppies">
+                <p class="portfolio__frame-description">A mockup of a puppy adoption web app. Users can add, delete, edit and 'adopt' puppies. Built with Vue.js.</p>
+              </a>
+            </div>
+            <div class="grid__item">
+              <a target="_blank" href="http://kf-tshirts.surge.sh" class="portfolio__frame">
+                <img src="../images/tshirts.png" class="portfolio__img" alt="Puppies">
+                <p class="portfolio__frame-description">The goal of this project was to build a mockup of a t-shirt store that is fully response at any size.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="passions">
+        <div class="passions__group">
+          <p class="passions__item">Dog Mom</p>
+          <p class="passions__item">Retired Ballerina</p>
+          <p class="passions__item">Pizza Lover</p>
         </div>
       </div>
 
@@ -98,6 +126,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </template>
