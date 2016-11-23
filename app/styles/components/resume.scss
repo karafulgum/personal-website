@@ -3,6 +3,10 @@
 
   &__content {
     padding-bottom: 1rem;
+
+    @media (max-width: 720px) {
+      // padding: 1.25rem;
+    }
   }
 
   &__header {
@@ -19,6 +23,14 @@
   &__group {
     display: flex;
     color: $c-gray;
+
+    & + & {
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 720px) {
+      flex-direction: column;
+    }
   }
 
   &__date {
@@ -26,6 +38,9 @@
     flex-basis: 20%;
     flex-shrink: 0;
 
+    @media (max-width: 720px) {
+      margin-bottom: 0.3rem;
+    }
   }
 
   &__info {

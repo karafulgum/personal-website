@@ -22,10 +22,6 @@
     color: $c-white;
     text-decoration: none;
 
-    &.active {
-      color: $c-accent;
-    }
-
     &:hover {
       // border-bottom: 0.15rem solid $c-accent;
       color: $c-accent;
