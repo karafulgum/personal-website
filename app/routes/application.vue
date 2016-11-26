@@ -1,9 +1,9 @@
 <template lang="html">
-  <div class="">
+  <div class="" id="home">
     <div class="nav">
       <div class="container">
         <div class="nav__content">
-          <img src="../images/KLOGO-S.png" class="logo" alt="Kara Fulgum Logo">
+          <a class="nav__home" href="#home"><img src="../images/KLOGO-S.png" class="logo" alt="Kara Fulgum Logo"></a>
           <ul class="nav__right">
             <li>
               <a href='#about' class="nav__right-item">About</a>
@@ -42,19 +42,26 @@
         </div>
       </div>
 
+      <!-- TODO: fix overlay from being over the image -->
       <div class="portfolio" id="portfolio">
         <p class="header header--light"><span class="header__underline">Portfolio</span></p>
         <div class="container">
           <div class="grid">
             <div class="grid__item">
               <a target="_blank" href="http://kf-puppies.surge.sh" class="portfolio__frame">
-                <img src="../images/puppies.png" class="portfolio__img" alt="Puppies">
+                <img src="../images/puppies.png" class="portfolio__img" alt="Puppies Project">
                 <p class="portfolio__frame-description">A mockup of a puppy adoption web app. Users can add, delete, edit and 'adopt' puppies. Built with Vue.js.</p>
               </a>
             </div>
             <div class="grid__item">
+              <a target="_blank" href="#" class="portfolio__frame">
+                <img src="../images/marvel.png" class="portfolio__img" alt="Marvel Project">
+                <p class="portfolio__frame-description">Using Vue.js, I built a searchable app utilizing Marvel's API. </p>
+              </a>
+            </div>
+            <div class="grid__item">
               <a target="_blank" href="http://kf-tshirts.surge.sh" class="portfolio__frame">
-                <img src="../images/tshirts.png" class="portfolio__img" alt="Puppies">
+                <img src="../images/tshirts.png" class="portfolio__img" alt="T-Shirts Project">
                 <p class="portfolio__frame-description">The goal of this project was to build a mockup of a t-shirt store that is fully response at any size.</p>
               </a>
             </div>
@@ -129,6 +136,22 @@
         </div>
       </div>
 
+      <div class="contact" id="contact">
+        <div class="container">
+          <!-- <p class="header"><span class="header__underline">Contact</span></p> -->
+          <div class="contact__content">
+           <p class="contact__header"><span class="header__underline">Let's keep in touch</span></p>
+           <a href="mailto:karafulgum@gmail.com" class="contact__email"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
+           <div class="contact__socials">
+             <a target="_blank" href="http://www.github.com/karafulgum" class="contact__social"><i class="fa fa-github" aria-hidden="true"></i></a>
+             <a target="_blank" href="http://www.linkedin.com/in/karafulgum" class="contact__social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+             <a target="_blank" href="http://www.twitter.com/karafulgum" class="contact__social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a target="_blank" href="http://www.instagram.com/karafulgum" class="contact__social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+           </div>
+          </div>
+       </div>
+      </div>
+
     </div>
   </div>
 </template>
@@ -138,12 +161,10 @@
 
 export default {
   data() {
-    return {
-    };
+    return {};
   },
 
-  mounted() {
-  },
+  mounted() {},
 
   methods: {
 

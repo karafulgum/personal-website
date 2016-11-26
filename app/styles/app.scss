@@ -14,10 +14,10 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/resume';
 @import 'components/passions';
 @import 'components/portfolio';
+@import 'components/contact';
 
 .logo {
   height: 2rem;
-  margin: auto 0;
 }
 
 .header {
@@ -29,6 +29,12 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
   font-weight: bold;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
+
+  @media (max-width: 520px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   &--light {
     color: $c-white;
