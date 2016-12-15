@@ -13,8 +13,32 @@
     }
   }
 
+  &__text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__header {
+    margin: 0;
+    color: $c-accent;
+    font-family: 'Leckerli One', sans-serif;
+    font-size: 2rem;
+
+    @media (max-width: 520px) {
+      text-align: center;
+    }
+  }
+
   &__body {
     flex-grow: 1;
+
+    &--2 {
+      margin-top: 0;
+
+      @media (max-width: 520px) {
+        text-align: center;
+      }
+    }
 
     @media (max-width: 520px) {
       text-align: center;
@@ -29,5 +53,13 @@
     border: 0.2rem solid $c-accent;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  &__link {
+    color: $c-black;
+
+    &:hover {
+      color: $c-accent;
+    }
   }
 }

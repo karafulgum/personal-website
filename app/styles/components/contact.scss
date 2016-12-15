@@ -35,6 +35,18 @@
     }
   }
 
+  &__phone {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: $c-primary;
+    font-size: 1.3rem;
+
+    &--number {
+      margin: 0;
+    }
+  }
+
   &__socials {
     display: flex;
     flex-direction: row;
@@ -46,6 +58,11 @@
 
 .fa-envelope-o {
   margin-right: 0.3rem;
+}
+
+.fa-mobile {
+  margin-right: 0.3rem;
+  font-size: 2rem;
 }
 
 .fa-github, .fa-linkedin, .fa-twitter, .fa-instagram {

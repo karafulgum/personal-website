@@ -41,7 +41,12 @@
         <p class="header"><span class="header__underline">About</span></p>
         <div class="container">
           <div class="about__content">
-              <p class="about__body">Hi, I'm Kara Fulgum. I'm a Nashville native (there's so few of us now!) and a web developer. Before switching into tech, I was in public relations and marketing for six years. Becuase of that I have a unique perspective when it comes to building websites. Outside of work I enjoy playing with my golden retriever mix, going to the ballet, attending as many concerts as I can and co-organizing the Nashville meetup chapter of Tech Ladies.</p>
+              <div class="about__text">
+                <p class="about__header">Hey there,</p>
+                <p class="about__body">I'm a Nashville native (there's so few of us now!) and a web developer. A couple fun facts about me: I grew up training in classical ballet and fully embrace being a ginger.</p>
+                <p class="about__body--2">After a six year career in public relations, I realized I wanted a new career where I could use my love of solving puzzles. That's where web development came in and I decided to dedicate three months to learning to code at <a href="http://www.theironyard.com" class="about__link" target="_blank">The Iron Yard</a>. Outside of work, I love playing with my golden retriever mix (Maggie), talking about Harry Potter and attending as many concerts as I can.</p>
+                <!-- <p class="about__body--2">Outside of work, I love playing with my golden retriever mix (Maggie), talking about Harry Potter and attending as many concerts as I can.</p> -->
+              </div>
               <img src="../images/kara.jpg" class="about__img" alt="Kara Fulgum">
           </div>
         </div>
@@ -152,6 +157,9 @@
           <div class="contact__content">
            <p class="contact__header"><span class="header__underline">Let's keep in touch</span></p>
            <a href="mailto:karafulgum@gmail.com" class="contact__email"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
+            <div class="contact__phone">
+              <i class="fa fa-mobile" aria-hidden="true"></i><p class="contact__phone--number">615-574-8577</p>
+            </div>
            <div class="contact__socials">
              <a target="_blank" href="http://www.github.com/karafulgum" class="contact__social"><i class="fa fa-github" aria-hidden="true"></i></a>
              <a target="_blank" href="http://www.linkedin.com/in/karafulgum" class="contact__social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
