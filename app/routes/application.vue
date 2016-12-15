@@ -18,6 +18,11 @@
               <a href="#contact" class="nav__right-item">Contact</a>
             </li>
           </ul>
+          <!-- <button class="hamburger hamburger--slider is-active" @click="showMenu" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button> -->
         </div>
       </div>
     </div>
@@ -62,7 +67,7 @@
             <div class="grid__item">
               <a target="_blank" href="http://kf-tshirts.surge.sh" class="portfolio__frame">
                 <img src="../images/tshirts.png" class="portfolio__img" alt="T-Shirts Project">
-                <p class="portfolio__frame-description">The goal of this project was to build a mockup of a t-shirt store that is fully response at any size.</p>
+                <p class="portfolio__frame-description">The goal of this project was to build a mockup of a t-shirt store that is fully responsive at any size.</p>
               </a>
             </div>
           </div>
@@ -167,7 +172,11 @@ export default {
   mounted() {},
 
   methods: {
-
+    showMenu() {
+      this.addEventListener("click", function() {
+        this.classList.toggle("is-active");
+      });
+    }
   },
 };
 </script>
