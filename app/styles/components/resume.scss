@@ -50,12 +50,16 @@
 
   &__subtitle {
     margin: 0.2rem 0;
-
   }
 
   &__description {
     flex-grow: 1;
     padding-left: 1rem;
     list-style: circle;
+  }
+
+  &__skills {
+    margin: 0 auto;
+    text-align: center;
   }
 }

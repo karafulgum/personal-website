@@ -111,6 +111,11 @@
               </div>
             </div>
 
+            <div class="resume__header">Skills</div>
+            <div class="resume__group">
+            <p class="resume__skills">HTML, CSS, SASS, JavaScript, Ember.js, Vue.js, Adonis.js, Node.js, Responsive Web Design</p>
+            </div>
+
             <div class="resume__header">Employment</div>
             <div class="resume__group">
               <p class="resume__date">Nov. 2015 - Sept. 2016</p>
