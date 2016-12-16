@@ -156,9 +156,7 @@
           <!-- <p class="header"><span class="header__underline">Contact</span></p> -->
           <div class="contact__content">
            <p class="contact__header"><span class="header__underline">Let's keep in touch</span></p>
-           <div class="contact__email">
-             <a href="mailto:karafulgum@gmail.com" class="contact__email--address"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
-           </div>
+             <a href="mailto:karafulgum@gmail.com" class="contact__email"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
             <div class="contact__phone">
               <i class="fa fa-mobile" aria-hidden="true"></i><p class="contact__phone--number">615-574-8577</p>
             </div>

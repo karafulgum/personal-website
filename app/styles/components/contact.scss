@@ -29,16 +29,12 @@
     align-items: center;
     margin-top: 1rem;
     font-size: 1.3rem;
+    color: $c-primary;
+    text-decoration: none;
 
-    &--address {
-      color: $c-primary;
-      text-decoration: none;
-
-      &:hover {
-        color: $c-accent;
-      }
+    &:hover {
+      color: $c-accent;
     }
-
     @media (max-width: 320px) {
       font-size: 1rem;
     }
@@ -54,7 +50,6 @@
     &--number {
       margin: 0;
     }
-
     @media (max-width: 320px) {
       font-size: 1rem;
     }
@@ -78,7 +73,10 @@
   font-size: 2rem;
 }
 
-.fa-github, .fa-linkedin, .fa-twitter, .fa-instagram {
+.fa-github,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
   margin: 0.5rem;
   padding: 0.5rem;
   border-radius: 50%;
