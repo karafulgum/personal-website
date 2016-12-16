@@ -63,4 +63,21 @@
       color: $c-accent;
     }
   }
+
+  &__contact {
+    width: 20%;
+    padding: 0.2rem;
+    border: 0.1rem solid $c-accent;
+    border-radius: 0.4rem;
+    background: $c-accent;
+    color: $c-white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      background: $c-white;
+      color: $c-accent;
+    }
+  }
 }

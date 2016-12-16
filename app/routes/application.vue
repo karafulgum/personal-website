@@ -45,6 +45,7 @@
                 <p class="about__header">Hey there,</p>
                 <p class="about__body">I'm a Nashville native (there's so few of us now!) and a web developer. A couple fun facts about me: I grew up training in classical ballet and fully embrace being a ginger.</p>
                 <p class="about__body--2">After a six year career in public relations, I realized I wanted a new career where I could use my love of solving puzzles. That's where web development came in and I decided to dedicate three months to learning to code at <a href="http://www.theironyard.com" class="about__link" target="_blank">The Iron Yard</a>. Outside of work, I love playing with my golden retriever mix (Maggie), talking about Harry Potter and attending as many concerts as I can.</p>
+                <a href="#contact" class="about__contact">Contact Me</a>
                 <!-- <p class="about__body--2">Outside of work, I love playing with my golden retriever mix (Maggie), talking about Harry Potter and attending as many concerts as I can.</p> -->
               </div>
               <img src="../images/kara.jpg" class="about__img" alt="Kara Fulgum">
