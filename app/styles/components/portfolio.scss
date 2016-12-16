@@ -1,45 +1,122 @@
 .portfolio {
+  position: relative;
+  padding: 1rem 0;
   background: $c-primary;
 
-  &__img {
-    width: 100%;
-  }
+  &__group {
+    display: flex;
+    justify-content: space-between;;
+    max-width: 45rem;
+    margin: 1rem auto;
 
-  &__frame {
-    display: block;
-    position: relative;
-    margin: 0 0.5rem;
+    &:first-of-type {
+      margin-top: 0;
+    }
 
-    &:hover {
-      &::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: $c-accent;
-        content: '';
-        opacity: 0.8;
-      }
+    &--reverse {
+      flex-direction: row-reverse;
+    }
 
-      .portfolio__frame-description {
-        display: block;
-        cursor: pointer;
-      }
+    @media (max-width: 800px) {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
   }
 
-  &__frame-description {
-    display: none;
+  &__image {
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  &__display {
+    height: 15rem;
+  }
+
+  &__cover {
     position: absolute;
-    top: 1rem;
-    padding: 0 1rem;
-    color: $c-white;
+    top: 1.39rem;
+    left: 3.35rem;
+    width: 15.4rem;
+    height: 8.7rem;
+
+    @media (max-width: 375px) {
+      width: 14.5rem;
+    }
+  }
+
+  &__ipad {
+    position: absolute;
+    top: 6rem;
+    left: 1.8rem;
+    height: 8rem;
+  }
+
+  &__mobile-cover {
+    position: absolute;
+    top: 6.7rem;
+    left: 2.4rem;
+    width: 5.2rem;
+    height: 6.5rem;
+    object-fit: cover;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    margin-right: 2.5rem;
     text-align: center;
-    text-shadow: 0.1rem 0.1rem rgba(#000, 0.2);
+
+    &--reverse {
+      margin-right: 0;
+      margin-left: 1.25rem;
+    }
+
+    @media (max-width: 800px) {
+      margin: 0;
+    }
+  }
+
+  &__title {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: $c-accent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    margin-top: 0.5rem;
+    color: $c-white;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__link {
+    flex-grow: 1;
+    margin-right: 0.3rem;
+    padding: 0.2rem 0.5rem;
+    border: 0.1rem solid $c-accent;
+    border-radius: 0.4rem;
+    background: $c-primary;
+    color: $c-accent;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
 
     &:hover {
-      display: block;
+      background: $c-accent;
+      color: $c-white;
     }
   }
 }

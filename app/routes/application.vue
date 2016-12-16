@@ -56,26 +56,38 @@
       <div class="portfolio" id="portfolio">
         <p class="header header--light"><span class="header__underline">Portfolio</span></p>
         <div class="container">
-          <div class="grid">
-            <div class="grid__item">
-              <a target="_blank" href="http://kf-puppies.surge.sh" class="portfolio__frame">
-                <img src="../images/puppies.png" class="portfolio__img" alt="Puppies Project">
-                <p class="portfolio__frame-description">A mockup of a puppy adoption web app. Users can add, delete, edit and 'adopt' puppies. Built with Vue.js.</p>
-              </a>
+          <div class="portfolio__group">
+            <div class="portfolio__image">
+              <img src="../images/computer.png" class="portfolio__display" alt="">
+              <img src="../images/puppies.png" class="portfolio__cover" alt="Puppies Project">
             </div>
-            <div class="grid__item">
-              <a target="_blank" href="#" class="portfolio__frame">
-                <img src="../images/marvel.png" class="portfolio__img" alt="Marvel Project">
-                <p class="portfolio__frame-description">Using Vue.js, I built a searchable app utilizing Marvel's API. </p>
-              </a>
-            </div>
-            <div class="grid__item">
-              <a target="_blank" href="http://kf-tshirts.surge.sh" class="portfolio__frame">
-                <img src="../images/tshirts.png" class="portfolio__img" alt="T-Shirts Project">
-                <p class="portfolio__frame-description">The goal of this project was to build a mockup of a t-shirt store that is fully responsive at any size.</p>
-              </a>
+            <div class="portfolio__description">
+              <p class="portfolio__title">Puppies</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS, Bulma and Vue.js</p>
+              <div class="portfolio__buttons">
+                <a href="http://kf-puppies.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <a href="https://github.com/karafulgum/17-puppy-adoption" class="portfolio__link" target="_blank" alt="Code">Code</a>
+              </div>
             </div>
           </div>
+
+          <div class="portfolio__group portfolio__group--reverse">
+            <div class="portfolio__image">
+              <img src="../images/computer.png" class="portfolio__display" alt="">
+              <img src="../images/tshirts.png" class="portfolio__cover" alt="Tshirts Project">
+              <img src="../images/ipad.png" class="portfolio__ipad">
+              <img src="../images/tshirts-ipad.png" class="portfolio__mobile-cover">
+            </div>
+            <div class="portfolio__description portfolio__description--reverse">
+              <p class="portfolio__title">T-Shirts</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS and SASS. Focusing on responsive design.</p>
+              <div class="portfolio__buttons">
+                <a href="http://kf-tshirts.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <a href="https://github.com/karafulgum/06-tshirts" class="portfolio__link" target="_blank" alt="Code">Code</a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
