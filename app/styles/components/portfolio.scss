@@ -25,7 +25,6 @@
 
   &__image {
     position: relative;
-    flex-shrink: 0;
   }
 
   &__display {
@@ -42,6 +41,11 @@
 
     @media (max-width: 375px) {
       width: 14.5rem;
+    }
+
+    @media (max-width: 320px) {
+      left: 2.9rem;
+      width: 12rem;
     }
   }
 
