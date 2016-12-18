@@ -75,11 +75,28 @@
           <div class="portfolio__group portfolio__group--reverse">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
+              <img src="../images/marvel.png" class="portfolio__cover" alt="Tshirts Project">
+              <img src="../images/iphone.png" class="portfolio__iphone">
+              <img src="../images/marvel-mobile.png" class="portfolio__iphone-cover">
+            </div>
+            <div class="portfolio__description">
+              <p class="portfolio__title">Marvel</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS, SASS and Vue.js. Data pulled from the Marvel API.</p>
+              <div class="portfolio__buttons">
+                <a href="http://kf-marvel.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <a href="https://github.com/karafulgum/15-marvel" class="portfolio__link" target="_blank" alt="Code">Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__group">
+            <div class="portfolio__image">
+              <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/tshirts.png" class="portfolio__cover" alt="Tshirts Project">
               <img src="../images/ipad.png" class="portfolio__ipad">
               <img src="../images/tshirts-ipad.png" class="portfolio__mobile-cover">
             </div>
-            <div class="portfolio__description portfolio__description--reverse">
+            <div class="portfolio__description">
               <p class="portfolio__title">T-Shirts</p>
               <p class="portfolio__subtitle">Built with HTML, CSS and SASS. Focusing on responsive design.</p>
               <div class="portfolio__buttons">
