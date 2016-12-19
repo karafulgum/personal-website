@@ -16,6 +16,32 @@
     text-transform: uppercase;
   }
 
+  &__pdf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0.2rem 0.5rem;
+    border: 0.1rem solid $c-accent;
+    border-radius: 0.4rem;
+    background: $c-accent;
+    color: $c-white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      background: $c-primary;
+      color: $c-accent;
+    }
+
+    @media (max-width: 375px) {
+      width: 30%;
+    }
+  }
+
   &__group {
     display: flex;
     color: $c-gray;
