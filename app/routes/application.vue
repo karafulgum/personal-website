@@ -43,7 +43,7 @@
           <div class="about__content">
               <div class="about__text">
                 <p class="about__header">Hey there,</p>
-                <p class="about__body">I'm a Nashville native (there's so few of us now!) and a web developer. After a six year career in public relations, I realized I wanted a new career where I could use my love of solving puzzles. That's where web development came in and I decided to dedicate three months to learning to code at <a href="http://www.theironyard.com" class="about__link" target="_blank">The Iron Yard</a>.</p>
+                <p class="about__body">I'm a Nashville native and a web developer. After a four year career in public relations, I realized I wanted a new career where I could use my love of solving puzzles. That's where web development came in and I decided to dedicate three months to learning to code at <a href="http://www.theironyard.com" class="about__link" target="_blank">The Iron Yard</a>.</p>
                 <p class="about__body--2">Outside of work, I love playing with my golden retriever mix, going to the ballet, talking about Harry Potter and attending as many concerts as I can.</p>
                 <a href="#contact" class="about__contact">Contact Me</a>
                 <!-- <p class="about__body--2">Outside of work, I love playing with my golden retriever mix (Maggie), talking about Harry Potter and attending as many concerts as I can.</p> -->
@@ -56,6 +56,23 @@
       <div class="portfolio" id="portfolio">
         <p class="header header--light"><span class="header__underline">Portfolio</span></p>
         <div class="container">
+
+          <div class="portfolio__group">
+            <div class="portfolio__image">
+              <img src="../images/computer.png" class="portfolio__display" alt="">
+              <img src="../images/bbbs.png" class="portfolio__cover" alt="Big Brothers Big Sisters Project">
+              <!-- <img src="../images/ipad.png" class="portfolio__ipad">
+              <img src="../images/tshirts-ipad.png" class="portfolio__mobile-cover"> -->
+            </div>
+            <div class="portfolio__description">
+              <p class="portfolio__title">Big Brothers Big Sisters</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS, SASS and Ember.js. This was my final project at The Iron Yard.</p>
+              <div class="portfolio__buttons">
+                <a href="#" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <a href="https://github.com/stephhappens/bbbs-site" class="portfolio__link" target="_blank" alt="Code">Code</a>
+              </div>
+            </div>
+          </div>
 
           <div class="portfolio__group portfolio__group--reverse">
             <div class="portfolio__image">
@@ -81,7 +98,7 @@
             </div>
             <div class="portfolio__description">
               <p class="portfolio__title">Puppies</p>
-              <p class="portfolio__subtitle">Built with HTML, CSS, Bulma and Vue.js</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS, Bulma and Vue.js.</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-puppies.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
                 <a href="https://github.com/karafulgum/17-puppy-adoption/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
@@ -233,6 +250,7 @@ export default {
   mounted() {},
 
   methods: {
+    // console.log('Hi! Thanks for checking out my portfolio. I am currently available to hire. Feel free to contact me at karafulgum@gmail.com.');
     showMenu() {
       this.addEventListener("click", function() {
         this.classList.toggle("is-active");

@@ -33,10 +33,10 @@
 
   &__cover {
     position: absolute;
-    top: 1.39rem;
+    top: 1.3rem;
     left: 3.4rem;
     width: 15.4rem;
-    height: 8.7rem;
+    height: 8.8rem;
 
     @media (max-width: 375px) {
       width: 14.5rem;
@@ -81,7 +81,7 @@
   &__description {
     display: flex;
     flex-direction: column;
-    max-width: 19rem;
+    max-width: 21rem;
     margin-right: 2.5rem;
     text-align: center;
 

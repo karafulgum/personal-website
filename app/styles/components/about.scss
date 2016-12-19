@@ -36,7 +36,6 @@
     padding: 0.3rem;
     border: 0.2rem solid $c-accent;
     border-radius: 50%;
-    object-fit: cover;
   }
 
   &__link {
@@ -62,6 +61,10 @@
     &:hover {
       background: $c-white;
       color: $c-accent;
+    }
+
+    @media (max-width: 690px) {
+      min-width: 8rem;
     }
   }
 }
