@@ -57,6 +57,23 @@
         <p class="header header--light"><span class="header__underline">Portfolio</span></p>
         <div class="container">
 
+          <div class="portfolio__group portfolio__group--reverse">
+            <div class="portfolio__image">
+              <img src="../images/computer.png" class="portfolio__display" alt="">
+              <img src="../images/ribbiter.png" class="portfolio__cover" alt="Ribbiter Project">
+              <img src="../images/iphone.png" class="portfolio__iphone">
+              <img src="../images/ribbiter-mobile.png" class="portfolio__iphone-cover">
+            </div>
+            <div class="portfolio__description">
+              <p class="portfolio__title">Ribbiter</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS, SASS, Vue.js and AdonisJS.</p>
+              <div class="portfolio__buttons">
+                <a href="#" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <a href="https://github.com/karafulgum/20-ribbeter/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
+              </div>
+            </div>
+          </div>
+
           <div class="portfolio__group">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
@@ -67,7 +84,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS, Bulma and Vue.js</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-puppies.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/17-puppy-adoption" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/17-puppy-adoption/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -84,7 +101,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS, SASS and Vue.js. Data pulled from the Marvel API.</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-marvel.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/15-marvel" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/15-marvel/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -101,7 +118,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS and SASS. Focusing on responsive design.</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-tshirts.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/06-tshirts" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/06-tshirts/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
