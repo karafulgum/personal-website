@@ -24,36 +24,23 @@
     text-transform: uppercase;
   }
 
-  &__email {
+  &__info {
     display: flex;
     align-items: center;
     margin-top: 1rem;
-    font-size: 1.3rem;
     color: $c-primary;
+    font-size: 1.3rem;
     text-decoration: none;
+
+    &:last-of-type {
+      margin-top: 0;
+    }
 
     &:hover {
       color: $c-accent;
     }
-    @media (max-width: 320px) {
-      font-size: 1rem;
-    }
   }
 
-  &__phone {
-    display: flex;
-    align-items: center;
-    margin-top: 0.5rem;
-    color: $c-primary;
-    font-size: 1.3rem;
-
-    &--number {
-      margin: 0;
-    }
-    @media (max-width: 320px) {
-      font-size: 1rem;
-    }
-  }
 
   &__socials {
     display: flex;
@@ -85,5 +72,13 @@
 
   &:hover {
     background: $c-accent;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact {
+    &__info {
+      font-size: 1rem;
+    }
   }
 }

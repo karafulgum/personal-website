@@ -18,11 +18,26 @@
               <a href="#contact" class="nav__right-item">Contact</a>
             </li>
           </ul>
-          <!-- <button class="hamburger hamburger--slider is-active" @click="showMenu" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button> -->
+          <!-- <div class="hamburger" v-on:click="showMenu">
+            <div class="hamburger-box">
+              <div class="hamburger-inner">
+                <ul class="nav__right--mobile">
+                  <li>
+                    <a href='#about' class="nav__right-item  nav__right-item--mobile">About</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio" class="nav__right-item nav__right-item--mobile">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#resume" class="nav__right-item nav__right-item--mobile">Resume</a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav__right-item nav__right-item--mobile">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -221,10 +236,8 @@
           <!-- <p class="header"><span class="header__underline">Contact</span></p> -->
           <div class="contact__content">
            <p class="contact__header"><span class="header__underline">Let's keep in touch</span></p>
-             <a href="mailto:karafulgum@gmail.com" class="contact__email"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
-            <div class="contact__phone">
-              <i class="fa fa-mobile" aria-hidden="true"></i><p class="contact__phone--number">615-574-8577</p>
-            </div>
+             <a href="mailto:karafulgum@gmail.com" class="contact__info"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
+             <a href="tel:615-574-8577" class="contact__info"><i class="fa fa-mobile" aria-hidden="true"></i>615-574-8577</a>
            <div class="contact__socials">
              <a target="_blank" href="http://www.github.com/karafulgum" class="contact__social"><i class="fa fa-github" aria-hidden="true"></i></a>
              <a target="_blank" href="http://www.linkedin.com/in/karafulgum" class="contact__social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -247,15 +260,18 @@ export default {
     return {};
   },
 
-  mounted() {},
+  mounted() {
+    console.log('Hi! Thanks for checking out my portfolio.');
+    console.log('I am curretly available to hire.');
+    console.log('Feel free to reach out to me at karafulgum@gmail.com.');
+  },
 
   methods: {
-    // console.log('Hi! Thanks for checking out my portfolio. I am currently available to hire. Feel free to contact me at karafulgum@gmail.com.');
     showMenu() {
-      this.addEventListener("click", function() {
-        this.classList.toggle("is-active");
-      });
+      document.getElementById("hamburger").style.display = "block";
+      document.getElementById("hamburger").style.visibility = "visible";
+      // document.getElementById("hidebars").style.visibility = "hidden";
+    },
     }
-  },
-};
+  };
 </script>

@@ -13,12 +13,18 @@
   }
 
   &__home {
+    flex-shrink: 0;
     margin: auto 0;
   }
 
   &__right {
     display: flex;
     text-transform: uppercase;
+
+    &--mobile {
+      display: block;
+      width: 100%;
+    }
   }
 
   &__right-item {
@@ -26,6 +32,12 @@
     margin: 0 0 0 0.5rem;
     color: $c-white;
     text-decoration: none;
+
+    &--mobile {
+      display: flex;
+      justify-content: flex-end;
+      background: $c-primary;
+    }
 
     &:hover {
       // border-bottom: 0.15rem solid $c-accent;
