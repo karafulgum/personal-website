@@ -262,16 +262,16 @@ export default {
 
   mounted() {
     console.log('Hi! Thanks for checking out my portfolio.');
-    console.log('I am curretly available to hire.');
+    console.log('I am currently available to hire.');
     console.log('Feel free to reach out to me at karafulgum@gmail.com.');
   },
 
   methods: {
-    showMenu() {
-      document.getElementById("hamburger").style.display = "block";
-      document.getElementById("hamburger").style.visibility = "visible";
-      // document.getElementById("hidebars").style.visibility = "hidden";
-    },
+    // showMenu() {
+    //   document.getElementById("hamburger").style.display = "block";
+    //   document.getElementById("hamburger").style.visibility = "visible";
+    //   // document.getElementById("hidebars").style.visibility = "hidden";
+    // },
     }
   };
 </script>

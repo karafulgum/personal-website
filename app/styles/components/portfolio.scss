@@ -81,6 +81,7 @@
   &__description {
     display: flex;
     flex-direction: column;
+    min-width: 21rem;
     max-width: 21rem;
     margin-right: 2.5rem;
     text-align: center;
