@@ -18,26 +18,6 @@
               <a href="#contact" class="nav__right-item">Contact</a>
             </li>
           </ul>
-          <!-- <div class="hamburger" v-on:click="showMenu">
-            <div class="hamburger-box">
-              <div class="hamburger-inner">
-                <ul class="nav__right--mobile">
-                  <li>
-                    <a href='#about' class="nav__right-item  nav__right-item--mobile">About</a>
-                  </li>
-                  <li>
-                    <a href="#portfolio" class="nav__right-item nav__right-item--mobile">Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="#resume" class="nav__right-item nav__right-item--mobile">Resume</a>
-                  </li>
-                  <li>
-                    <a href="#contact" class="nav__right-item nav__right-item--mobile">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
@@ -61,7 +41,6 @@
                 <p class="about__body">I'm a Nashville native and a web developer. After a four year career in public relations, I realized I wanted a new career where I could use my love of solving puzzles. That's where web development came in and I decided to dedicate three months to learning to code at <a href="http://www.theironyard.com" class="about__link" target="_blank">The Iron Yard</a>.</p>
                 <p class="about__body--2">Outside of work, I love playing with my golden retriever mix, going to the ballet, talking about Harry Potter and attending as many concerts as I can.</p>
                 <a href="#contact" class="about__contact">Contact Me</a>
-                <!-- <p class="about__body--2">Outside of work, I love playing with my golden retriever mix (Maggie), talking about Harry Potter and attending as many concerts as I can.</p> -->
               </div>
               <img src="../images/kara.jpg" class="about__img" alt="Kara Fulgum">
           </div>
@@ -84,7 +63,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS, SASS and Ember.js. This was my final project at The Iron Yard.</p>
               <div class="portfolio__buttons">
                 <a href="#" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/stephhappens/bbbs-site" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/bbbs-site" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -101,7 +80,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS, SASS, Vue.js and AdonisJS.</p>
               <div class="portfolio__buttons">
                 <a href="#" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/20-ribbeter/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/20-ribbeter" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -116,7 +95,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS, Bulma and Vue.js.</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-puppies.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/17-puppy-adoption/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/17-puppy-adoption" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -133,7 +112,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS, SASS and Vue.js. Data pulled from the Marvel API.</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-marvel.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/15-marvel/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/15-marvel" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -150,7 +129,7 @@
               <p class="portfolio__subtitle">Built with HTML, CSS and SASS. Focusing on responsive design.</p>
               <div class="portfolio__buttons">
                 <a href="http://kf-tshirts.surge.sh" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/06-tshirts/tree/develop" class="portfolio__link" target="_blank" alt="Code">Code</a>
+                <a href="https://github.com/karafulgum/06-tshirts" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
           </div>
@@ -198,7 +177,7 @@
 
             <div class="resume__header">Skills</div>
             <div class="resume__group">
-            <p class="resume__skills">HTML, CSS, SASS, JavaScript, Ember.js, Vue.js, Adonis.js, Node.js, Responsive Web Design</p>
+            <p class="resume__skills">HTML, CSS, SASS, JavaScript, Ember.js, Vue.js, AdonisJS, Node.js, Responsive Web Design, Bulma and Bootstrap</p>
             </div>
 
             <div class="resume__header">Employment</div>
