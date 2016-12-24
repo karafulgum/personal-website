@@ -62,7 +62,7 @@
               <p class="portfolio__title">Big Brothers Big Sisters</p>
               <p class="portfolio__subtitle">Built with HTML, CSS, SASS and Ember.js. This was my final project at The Iron Yard.</p>
               <div class="portfolio__buttons">
-                <a href="#" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <a href="http://bbbsmid-tn.herokuapp.com/" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
                 <a href="https://github.com/karafulgum/bbbs-site" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
@@ -151,7 +151,7 @@
         <p class="header header--light"><span class="header__underline">Resume</span></p>
         <div class="container">
           <div class="resume__content">
-            <a href="https://drive.google.com/open?id=0B92L2EBx3uYnNzdJWjREN0pmOFE" target="_blank" class="resume__pdf">PDF Version</a>
+            <a href="https://drive.google.com/file/d/0B92L2EBx3uYndTVGMnhnVFhlLWc/view?usp=sharing" target="_blank" class="resume__pdf">PDF Version</a>
             <div class="resume__header">Education</div>
             <div class="resume__group">
               <p class="resume__date">Sept. 2016 - Dec. 2016</p>

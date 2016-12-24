@@ -94,6 +94,10 @@
     @media (max-width: 800px) {
       margin: 0;
     }
+
+    @media (max-width: 320px) {
+      min-width: 18rem;
+    }
   }
 
   &__title {
