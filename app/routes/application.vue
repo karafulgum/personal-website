@@ -68,7 +68,7 @@
             </div>
           </div>
 
-          <div class="portfolio__group portfolio__group--reverse">
+          <!-- <div class="portfolio__group portfolio__group--reverse">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/ribbiter.png" class="portfolio__cover" alt="Ribbiter Project">
@@ -83,9 +83,9 @@
                 <a href="https://github.com/karafulgum/20-ribbeter" class="portfolio__link" target="_blank" alt="Code">Code</a>
               </div>
             </div>
-          </div>
+          </div> -->
 
-          <div class="portfolio__group">
+          <div class="portfolio__group portfolio__group--reverse">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/puppies.png" class="portfolio__cover" alt="Puppies Project">
@@ -100,7 +100,7 @@
             </div>
           </div>
 
-          <div class="portfolio__group portfolio__group--reverse">
+          <div class="portfolio__group">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/marvel.png" class="portfolio__cover" alt="Tshirts Project">
@@ -117,7 +117,7 @@
             </div>
           </div>
 
-          <div class="portfolio__group">
+          <div class="portfolio__group portfolio__group--reverse">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/tshirts.png" class="portfolio__cover" alt="Tshirts Project">
