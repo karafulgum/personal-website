@@ -1,0 +1,45 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: $c-primary;
+  font-size: 14px;
+  opacity: 0.9;
+  z-index: 2;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__home {
+    flex-shrink: 0;
+    margin: auto 0;
+  }
+
+  &__right {
+    display: flex;
+    text-transform: uppercase;
+
+    &--mobile {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__right-item {
+    height: 100%;
+    margin: 0 0 0 0.5rem;
+    color: $c-white;
+    text-decoration: none;
+
+    &:hover {
+      // border-bottom: 0.15rem solid $c-accent;
+      color: $c-accent;
+    }
+
+    @media (max-width: 320px) {
+      font-size: 0.7rem;
+    }
+  }
+}
