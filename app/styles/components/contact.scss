@@ -1,0 +1,84 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../images/background.jpg') no-repeat center;
+  background-size: cover;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  &__header {
+    margin: 0.5rem;
+    color: $c-primary;
+    font-family: 'Ovo', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: $c-primary;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+    &:last-of-type {
+      margin-top: 0;
+    }
+
+    &:hover {
+      color: $c-accent;
+    }
+  }
+
+
+  &__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+}
+
+.fa-envelope-o {
+  margin-right: 0.3rem;
+}
+
+.fa-mobile {
+  margin-right: 0.3rem;
+  font-size: 2rem;
+}
+
+.fa-github,
+.fa-instagram,
+.fa-linkedin,
+.fa-twitter {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: $c-primary;
+  color: $c-white;
+
+  &:hover {
+    background: $c-accent;
+  }
+}
+
+@media (max-width: 320px) {
+  .contact {
+    &__info {
+      font-size: 1rem;
+    }
+  }
+}

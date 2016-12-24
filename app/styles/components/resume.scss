@@ -1,0 +1,91 @@
+.resume {
+  background: $c-primary;
+
+  &__content {
+    padding-bottom: 1rem;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    color: $c-accent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+  }
+
+  &__pdf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0.2rem 0.5rem;
+    border: 0.1rem solid $c-accent;
+    border-radius: 0.4rem;
+    background: $c-accent;
+    color: $c-white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      background: $c-primary;
+      color: $c-accent;
+    }
+
+    @media (max-width: 420px) {
+      width: 40%;
+    }
+  }
+
+  &__group {
+    display: flex;
+    color: $c-gray;
+
+    & + & {
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 720px) {
+      flex-direction: column;
+    }
+  }
+
+  &__date {
+    // text-transform: uppercase;
+    flex-basis: 20%;
+    flex-shrink: 0;
+
+    @media (max-width: 720px) {
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  &__info {
+    margin-left: 1rem;
+  }
+
+  &__title {
+    margin-bottom: 0;
+    color: $c-accent;
+  }
+
+  &__subtitle {
+    margin: 0.2rem 0;
+  }
+
+  &__description {
+    flex-grow: 1;
+    padding-left: 1rem;
+    list-style: circle;
+  }
+
+  &__skills {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

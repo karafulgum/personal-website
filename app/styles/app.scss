@@ -1,6 +1,49 @@
-// @import 'yoga-sass/assets/yoga';
-// @import 'normalize-css/normalize';
+$c-primary: #193251;
+$c-accent: #fd787a;
+$c-white: #fff;
+$c-gray: #c7c7c7;
+$c-black: #000;
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+@import 'reset';
+@import 'layout';
+@import 'components/nav';
+@import 'components/hero';
+@import 'components/about';
+@import 'components/resume';
+@import 'components/passions';
+@import 'components/portfolio';
+@import 'components/contact';
+
+.logo {
+  height: 2rem;
+}
+
+.header {
+  margin: 0;
+  padding: 1rem;
+  padding-top: 3.5rem;
+  color: $c-primary;
+  font-family: 'Ovo', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+
+  @media (max-width: 520px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--light {
+    color: $c-white;
+  }
+
+  &__underline {
+    display: inline-block;
+    padding: 0.2rem;
+    border-bottom: 0.1rem solid $c-accent;
+  }
+}
