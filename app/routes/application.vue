@@ -151,13 +151,16 @@
         <p class="header header--light"><span class="header__underline">Resume</span></p>
         <div class="container">
           <div class="resume__content">
-            <a href="https://drive.google.com/file/d/0B92L2EBx3uYndTVGMnhnVFhlLWc/view?usp=sharing" target="_blank" class="resume__pdf">PDF Version</a>
+            <a href="https://drive.google.com/file/d/0B92L2EBx3uYnMm9RdzlLNl9jU28/view?usp=sharing" target="_blank" class="resume__pdf">PDF Version</a>
             <div class="resume__header">Education</div>
             <div class="resume__group">
               <p class="resume__date">Sept. 2016 - Dec. 2016</p>
               <div class="resume__info">
                 <p class="resume__title">The Iron Yard</p>
                 <p class="resume__subtitle">Front End Engineering Student</p>
+                <ul class="resume__description">
+                  <li class="resume__description-item">Completed a full-time intensive coding program which covered a broad area from web design principles to complex JavaScript applications that manage data</li>
+                </ul>
               </div>
             </div>
             <div class="resume__group">
