@@ -154,13 +154,10 @@
             <a href="https://drive.google.com/file/d/0B92L2EBx3uYnMm9RdzlLNl9jU28/view?usp=sharing" target="_blank" class="resume__pdf">PDF Version</a>
             <div class="resume__header">Education</div>
             <div class="resume__group">
-              <p class="resume__date">Sept. 2016 - Dec. 2016</p>
+              <p class="resume__date">Aug. 2010 - May 2014</p>
               <div class="resume__info">
-                <p class="resume__title">The Iron Yard</p>
-                <p class="resume__subtitle">Front End Engineering Student</p>
-                <ul class="resume__description">
-                  <li class="resume__description-item">Completed a full-time intensive coding program which covered a broad area from web design principles to complex JavaScript applications that manage data</li>
-                </ul>
+                <p class="resume__title">Belmont University</p>
+                <p class="resume__subtitle">Bachelor of Arts in Public Relations</p>
               </div>
             </div>
             <div class="resume__group">
@@ -170,20 +167,23 @@
                 <p class="resume__subtitle">Study Abroad</p>
               </div>
             </div>
-            <div class="resume__group">
-              <p class="resume__date">Aug. 2010 - May 2014</p>
-              <div class="resume__info">
-                <p class="resume__title">Belmont University</p>
-                <p class="resume__subtitle">Bachelor of Arts in Public Relations</p>
-              </div>
-            </div>
 
             <div class="resume__header">Skills</div>
             <div class="resume__group">
             <p class="resume__skills">HTML, CSS, SASS, JavaScript, Ember.js, Vue.js, AdonisJS, Node.js, Responsive Web Design, Bulma and Bootstrap</p>
             </div>
 
-            <div class="resume__header">Employment</div>
+            <div class="resume__header">Experience</div>
+            <div class="resume__group">
+              <p class="resume__date">Sept. 2016 - Dec. 2016</p>
+              <div class="resume__info">
+                <p class="resume__title">Front End Engineering Student</p>
+                <p class="resume__subtitle">The Iron Yard</p>
+                <ul class="resume__description">
+                  <li class="resume__description-item">Completed a full-time intensive coding program which covered a broad area from web design principles to complex JavaScript applications that manage data</li>
+                </ul>
+              </div>
+            </div>
             <div class="resume__group">
               <p class="resume__date">Nov. 2015 - Sept. 2016</p>
               <div class="resume__info">
