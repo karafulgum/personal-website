@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Kara Fulgum's Portfolio",
   "main": "public/index.html",
   "scripts": {
     "start": "ember serve -lrp 35729",
@@ -17,6 +17,8 @@
   "dependencies": {
     "font-awesome": "^4.6.3",
     "normalize-css": "^2.3.1",
+    "vue-scroll-to": "^2.0.0",
+    "vueify": "^9.4.0",
     "whatwg-fetch": "^1.0.0",
     "yoga-sass": "^1.0.1"
   },
