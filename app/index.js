@@ -5,7 +5,6 @@ import VueRouter from 'vue-router';
 
 import App from './routes/application.vue';
 
-
 Vue.use(VueRouter);
 
 const routes = [

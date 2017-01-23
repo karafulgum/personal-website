@@ -6,7 +6,7 @@
           <a class="nav__home" href="#home"><img src="../images/KLOGO-S.png" class="logo" alt="Kara Fulgum Logo"></a>
           <ul class="nav__right">
             <li>
-              <a href='#about' class="nav__right-item">About</a>
+              <a href="#about" class="nav__right-item">About</a>
             </li>
             <li>
               <a href="#portfolio" class="nav__right-item">Portfolio</a>
