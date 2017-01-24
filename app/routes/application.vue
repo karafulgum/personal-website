@@ -249,11 +249,6 @@ export default {
   },
 
   methods: {
-    // showMenu() {
-    //   document.getElementById("hamburger").style.display = "block";
-    //   document.getElementById("hamburger").style.visibility = "visible";
-    //   // document.getElementById("hidebars").style.visibility = "hidden";
-    // },
     }
   };
 </script>
