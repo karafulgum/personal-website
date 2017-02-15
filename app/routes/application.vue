@@ -202,10 +202,10 @@
                 <p class="resume__title">Publicity Assistant</p>
                 <p class="resume__subtitle">Crowd Surf</p>
                 <ul class="resume__description">
-                  <li class="resume__description-item">Assisted publicity department in booking travel, keeping calendars and creating day sheets and talking points</li>
-                  <li class="resume__description-item">Handled Spotify playlisting as well as social influencer research and outreach</li>
-                  <li class="resume__description-item">Serviced press materials to the media and influencers</li>
+                  <li class="resume__description-item">Responsible for manging day-to-day publicity for 3+ artists at a time</li>
+                  <li class="resume__description-item">Served as the point-of-contact for Spotify playlist creators and social media influencers</li>
                   <li class="resume__description-item">Hired and supervised publicity department interns</li>
+                  <li class="resume__description-item">Assisted publicity department in booking travel, keeping calendars and creating day sheets and talking points</li>
                 </ul>
               </div>
             </div>
