@@ -169,6 +169,23 @@
             </div>
 
             <div class="resume__header">Skills</div>
+            <div class="resume__group resume__group--skills">
+            <div class="resume__skills">
+              <p class="resume__skills-item">HTML</p>
+              <p class="resume__skills-item">CSS</p>
+              <p class="resume__skills-item">SASS</p>
+              <p class="resume__skills-item">JavaScript</p>
+              <p class="resume__skills-item">Ember.js</p>
+              <p class="resume__skills-item">Vue.js</p>
+            </div>
+            <div class="resume__skills">
+              <p class="resume__skills-item">AdonisJS</p>
+              <p class="resume__skills-item">PHP</p>
+              <p class="resume__skills-item">Responsive Web Design</p>
+              <p class="resume__skills-item">Bulma</p>
+              <p class="resume__skills-item">Bootstrap</p>
+            </div>
+            </div>
 
             <div class="resume__header">Experience</div>
             <div class="resume__group">
