@@ -46,6 +46,11 @@
     display: flex;
     color: $c-gray;
 
+    &--skills {
+      width: 40%;
+      margin: 0 auto;
+    }
+
     & + & {
       margin-top: 1rem;
     }
@@ -85,7 +90,12 @@
   }
 
   &__skills {
-    margin: 0 auto;
+    flex-basis: calc(50% - 1rem);
+    margin: 0 0.5rem;
     text-align: center;
+  }
+
+  &__skills-item {
+    margin: 0.2rem 0;
   }
 }
