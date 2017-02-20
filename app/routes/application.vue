@@ -169,8 +169,6 @@
             </div>
 
             <div class="resume__header">Skills</div>
-            <div class="resume__group">
-            </div>
 
             <div class="resume__header">Experience</div>
             <div class="resume__group">
