@@ -170,7 +170,6 @@
 
             <div class="resume__header">Skills</div>
             <div class="resume__group">
-            <p class="resume__skills">HTML, CSS, SASS, JavaScript, Ember.js, Vue.js, AdonisJS, Node.js, PHP, Responsive Web Design, Bulma and Bootstrap</p>
             </div>
 
             <div class="resume__header">Experience</div>
