@@ -194,7 +194,8 @@
                 <p class="resume__title">Front End Engineering Student</p>
                 <p class="resume__subtitle">The Iron Yard</p>
                 <ul class="resume__description">
-                  <li class="resume__description-item">Completed a full-time intensive coding program which covered a broad area from web design principles to complex JavaScript applications that manage data</li>
+                  <li class="resume__description-item">Completed a full-time, 12-week long program which covered a broad area from web design principles to complex JavaScript applications that manage data</li>
+                  <li class="resume__description-item">The front end program focused on HTML5 and CSS3, JavaScript fundamentals, source code control using Git, collaborative coding using Github and web technologies such as Vue.js and Ember.js</li>
                 </ul>
               </div>
             </div>
