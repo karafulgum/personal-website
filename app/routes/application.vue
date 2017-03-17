@@ -177,6 +177,7 @@
             <div class="resume__skills">
               <p class="resume__skills-item">AdonisJS</p>
               <p class="resume__skills-item">PHP</p>
+              <p class="resume__skills-item">WordPress</p>
               <p class="resume__skills-item">Responsive Web Design</p>
               <p class="resume__skills-item">Bulma</p>
               <p class="resume__skills-item">Bootstrap</p>
