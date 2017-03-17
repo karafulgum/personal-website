@@ -54,9 +54,22 @@
           <div class="portfolio__group">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
+              <img src="../images/NCW.png" class="portfolio__cover" alt="Nashville Content Week">
+            </div>
+            <div class="portfolio__description">
+              <p class="portfolio__title">Nashville Content Week</p>
+              <p class="portfolio__subtitle">Built with HTML, CSS and WordPress.</p>
+              <div class="portfolio__buttons">
+                <a href="https://nashvillecontentweek.org/ncw17/" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
+                <!-- <a href="https://github.com/karafulgum/bbbs-site" class="portfolio__link" target="_blank" alt="Code">Code</a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__group portfolio__group--reverse">
+            <div class="portfolio__image">
+              <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/bbbs.png" class="portfolio__cover" alt="Big Brothers Big Sisters Project">
-              <!-- <img src="../images/ipad.png" class="portfolio__ipad">
-              <img src="../images/tshirts-ipad.png" class="portfolio__mobile-cover"> -->
             </div>
             <div class="portfolio__description">
               <p class="portfolio__title">Big Brothers Big Sisters</p>
@@ -68,24 +81,7 @@
             </div>
           </div>
 
-          <!-- <div class="portfolio__group portfolio__group--reverse">
-            <div class="portfolio__image">
-              <img src="../images/computer.png" class="portfolio__display" alt="">
-              <img src="../images/ribbiter.png" class="portfolio__cover" alt="Ribbiter Project">
-              <img src="../images/iphone.png" class="portfolio__iphone">
-              <img src="../images/ribbiter-mobile.png" class="portfolio__iphone-cover">
-            </div>
-            <div class="portfolio__description">
-              <p class="portfolio__title">Ribbiter</p>
-              <p class="portfolio__subtitle">Built with HTML, CSS, SASS, Vue.js and AdonisJS.</p>
-              <div class="portfolio__buttons">
-                <a href="#" class="portfolio__link" target="_blank" alt="Live Link">Live</a>
-                <a href="https://github.com/karafulgum/20-ribbeter" class="portfolio__link" target="_blank" alt="Code">Code</a>
-              </div>
-            </div>
-          </div> -->
-
-          <div class="portfolio__group portfolio__group--reverse">
+          <div class="portfolio__group">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/puppies.png" class="portfolio__cover" alt="Puppies Project">
@@ -100,7 +96,7 @@
             </div>
           </div>
 
-          <div class="portfolio__group">
+          <div class="portfolio__group portfolio__group--reverse">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/marvel.png" class="portfolio__cover" alt="Tshirts Project">
@@ -117,7 +113,7 @@
             </div>
           </div>
 
-          <div class="portfolio__group portfolio__group--reverse">
+          <div class="portfolio__group">
             <div class="portfolio__image">
               <img src="../images/computer.png" class="portfolio__display" alt="">
               <img src="../images/tshirts.png" class="portfolio__cover" alt="Tshirts Project">
