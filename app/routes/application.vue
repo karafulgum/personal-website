@@ -147,7 +147,7 @@
         <p class="header header--light"><span class="header__underline">Resume</span></p>
         <div class="container">
           <div class="resume__content">
-            <a href="https://drive.google.com/file/d/0B92L2EBx3uYnQldiZEVqZXNiU0U/view?usp=sharing" target="_blank" class="resume__pdf">PDF Version</a>
+            <a href="https://drive.google.com/file/d/0B92L2EBx3uYnVW1teWRRdWdxU3c/view?usp=sharing" target="_blank" class="resume__pdf">PDF Version</a>
             <div class="resume__header">Education</div>
             <div class="resume__group">
               <p class="resume__date">Aug. 2010 - May 2014</p>
