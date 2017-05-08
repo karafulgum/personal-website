@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="" id="home">
-    <div class="nav">
+    <nav class="nav">
       <div class="container">
         <div class="nav__content">
           <a class="nav__home" href="#home"><img src="../images/KLOGO-S.png" class="logo" alt="Kara Fulgum Logo"></a>
@@ -20,9 +20,9 @@
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="app__content">
+    <main class="app__content">
       <div class="hero">
         <div class="container">
           <div class="hero__content">
@@ -225,7 +225,7 @@
         </div>
       </div>
 
-      <div class="contact" id="contact">
+      <footer class="contact" id="contact">
         <div class="container">
           <!-- <p class="header"><span class="header__underline">Contact</span></p> -->
           <div class="contact__content">
@@ -240,9 +240,9 @@
            </div>
           </div>
        </div>
-      </div>
+     </footer>
 
-    </div>
+    </main>
   </div>
 </template>
 
