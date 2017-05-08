@@ -9,7 +9,7 @@
     "build": "ember build",
     "lint": "sass-lint",
     "esfix": "eslint src --fix && eslint tests --fix",
-    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist www.karafulgum.com",
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist karafulgum.com",
     "setup:vue": "yarn add vue vue-router && yarn add --dev vueify eslint-plugin-html"
   },
   "author": "",
