@@ -231,7 +231,7 @@
           <div class="contact__content">
            <p class="contact__header"><span class="header__underline">Let's keep in touch</span></p>
              <a href="mailto:karafulgum@gmail.com" class="contact__info"><i class="fa fa-envelope-o" aria-hidden="true"></i>karafulgum@gmail.com</a>
-             <a href="tel:615-574-8577" class="contact__info"><i class="fa fa-mobile" aria-hidden="true"></i>615-574-8577</a>
+             <!-- <a href="tel:615-574-8577" class="contact__info"><i class="fa fa-mobile" aria-hidden="true"></i>615-574-8577</a> -->
            <div class="contact__socials">
              <a target="_blank" href="http://www.github.com/karafulgum" class="contact__social"><i class="fa fa-github" aria-hidden="true"></i></a>
              <a target="_blank" href="http://www.linkedin.com/in/karafulgum" class="contact__social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -256,7 +256,7 @@ export default {
 
   mounted() {
     console.log('Hi! Thanks for checking out my portfolio.');
-    console.log('I am currently available to hire.');
+    // console.log('I am currently available to hire.');
     console.log('Feel free to reach out to me at karafulgum@gmail.com.');
   },
 
